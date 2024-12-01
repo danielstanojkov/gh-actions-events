@@ -16,11 +16,6 @@ on:
       - 'feat/**'
 
   workflow_dispatch:
-    inputs:
-      environment:
-        description: "Deployment environment (e.g., staging, production)"
-        required: true
-        default: "staging"
 
 jobs:
 
