@@ -6,8 +6,6 @@ on:
       - main
       - develop
       - 'feat/**'
-    paths-ignore:
-      - '.github/workflows/*'
 
   pull_request:
     types:
