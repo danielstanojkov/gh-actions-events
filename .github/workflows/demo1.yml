@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - 'develop'
+      - develop
       - 'feat/**'
     paths-ignore:
       - '.github/workflows/*'
@@ -14,7 +14,7 @@ on:
       - opened
     branches:
       - main
-      - 'develop'
+      - develop
       - 'feat/**'
 
   workflow_dispatch:
